@@ -1,0 +1,2 @@
+# MyNimDevelopmentKits
+Nim開発環境を作るための手順書とパッケージテンプレートです。
