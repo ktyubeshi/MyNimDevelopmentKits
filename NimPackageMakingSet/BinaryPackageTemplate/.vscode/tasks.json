@@ -46,7 +46,7 @@
         {
             "label": "Nimble Build",
             "type": "shell",
-            "command": "nimble build ;mv -Force ${workspaceFolder}/${workspaceFolderBasename}.exe ${workspaceFolder}/output",
+            "command": "nimble build -d:release -d:strip --opt:size ;mv -Force ${workspaceFolder}/${workspaceFolderBasename}.exe ${workspaceFolder}/output",
             "group": {
                 "kind": "build",
                 "isDefault": true
