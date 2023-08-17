@@ -7,8 +7,17 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug",
+            "name": "Debug(GUI Application)",
             "preLaunchTask": "Nimble Build(Debug,GUI)",
+            "program": "${workspaceFolder}/tests/${workspaceFolderBasename}",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug(CUI Application)",
+            "preLaunchTask": "Nimble Build(Debug)",
             "program": "${workspaceFolder}/tests/${workspaceFolderBasename}",
             "args": [],
             "cwd": "${workspaceFolder}"
